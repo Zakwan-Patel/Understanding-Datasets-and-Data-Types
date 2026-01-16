@@ -20,37 +20,37 @@ Each row represents an individual passenger, and columns describe attributes suc
 
 Target Variable:
 
-Survived (Binary: 0 = No, 1 = Yes)
+    Survived (Binary: 0 = No, 1 = Yes)
 
-Numerical Features:
+    Numerical Features:
 
-Age (continuous)
+    Age (continuous)
 
-Fare (continuous)
+    Fare (continuous)
 
-SibSp, Parch (discrete counts)
+    SibSp, Parch (discrete counts)
 
-Categorical Features:
+    Categorical Features:
 
-Sex
+    Sex
 
-Embarked
+    Embarked
 
-Ordinal Feature:
+    Ordinal Feature:
 
-Pclass (1st, 2nd, 3rd class)
+    Pclass (1st, 2nd, 3rd class)
 
 # 4. Data Quality & Structure
 
 Missing values observed in:
 
-Age (moderate)
+    Age (moderate)
 
-Cabin (high, mostly null)
+    Cabin (high, mostly null)
 
-Categorical variables require encoding.
+    Categorical variables require encoding.
 
-Feature scales vary significantly (Fare vs Age).
+    Feature scales vary significantly (Fare vs Age).
 
 The dataset reflects real-world imperfections, making it ideal for practicing preprocessing techniques.
 
@@ -60,13 +60,13 @@ Suitable for supervised classification
 
 Best algorithms:
 
-Logistic Regression
+    Logistic Regression
 
-Decision Trees
+    Decision Trees
 
-Random Forest
+    Random Forest
 
-Not suitable for deep learning due to limited size.
+    Not suitable for deep learning due to limited size.
 
 # 6. Key Observations
 

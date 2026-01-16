@@ -18,37 +18,37 @@ Each record represents a student with attributes related to gender, education ba
 
 # 3. Feature Classification
 
-Target Variables (Possible):
+    Target Variables (Possible):
 
-Math score
+        Math score
 
-Reading score
+        Reading score
 
-Writing score
+        Writing score
 
-Numerical Features:
+    Numerical Features:
 
-Math score
+        Math score
 
-Reading score
+        Reading score
 
-Writing score
+        Writing score
 
-Categorical Features:
+        Categorical Features:
 
-Gender
+        Gender
 
-Race/Ethnicity
+        Race/Ethnicity
 
-Ordinal Features:
+    Ordinal Features:
 
-Parental level of education
+        Parental level of education
 
-Binary Features:
+        Binary Features:
 
-Lunch
+        Lunch
 
-Test preparation course
+        Test preparation course
 
 # 4. Data Quality & Structure
 
@@ -64,13 +64,13 @@ Compared to the Titanic dataset, this dataset requires minimal preprocessing.
 
 Suitable for:
 
-Regression
+    Regression
 
-Multi-output regression
+    Multi-output regression
 
-Educational performance analysis
+    Educational performance analysis
 
-Can be used for feature importance studies.
+    Can be used for feature importance studies.
 
 # 6. Key Observations
 
